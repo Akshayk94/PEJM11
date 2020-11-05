@@ -38,7 +38,6 @@ public class GroupOperationsDemo1
 			if(rs.next())
 			{
 				int count=rs.getInt(1);
-				
 				System.out.println("TOTAL NO OF PRPDUCTS: "+count);
 			}
 		} 
