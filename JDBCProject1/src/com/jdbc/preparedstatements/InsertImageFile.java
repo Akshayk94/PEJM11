@@ -7,7 +7,7 @@ import java.sql.*;
 
 /* Write a program to insert image file
  * 
- * BLOB=> Binary Large Object and CLOB
+   BLOB=> Binary Large Object and CLOB
    Tiny BLOB ===> 32kb
    BLOB ===> 64kb
    MEDIUM BLOB ===> 16MB
