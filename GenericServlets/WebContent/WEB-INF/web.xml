@@ -15,4 +15,14 @@
   	<servlet-name>generic1</servlet-name>
   	<url-pattern>/firstlink</url-pattern>
   </servlet-mapping>
+  
+  <!-- MAPPING DETAILS OF SECOND FILE -->
+  <servlet>
+  	<servlet-name>generic2</servlet-name>
+  	<servlet-class>test.GenericDemo2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>generic2</servlet-name>
+  	<url-pattern>/secondlink</url-pattern>
+  </servlet-mapping>
 </web-app>
