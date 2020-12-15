@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Bill Dispatcher</title>
+</head>
+<body>
+	<form action="getbill">
+		<label>ENTER CURRENT READING</label>
+		<input type="text" name="current" /><br><br>
+		
+		<label>ENTER PREVIOUS READING</label>
+		<input type="text" name="previous" /><br><br>
+		
+		<label>SELECT CUSTOMER TYPE</label>
+		<select name="customertype">
+			<option value="commercial">COMMERCIAL</option>
+			<option value="resdential">RESDENTIAL</option>
+		</select>
+		
+		<input type="submit" value="GET BILL" />
+	</form>
+</body>
+</html>
